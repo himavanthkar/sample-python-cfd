@@ -17,7 +17,7 @@ This project demonstrates modern Python web development practices with proper CI
 
 If you would like to copy the [config.yml](https://github.com/CircleCI-public/sample-python-cfd/blob/main/.circleci/config.yml) and adapt it to your project, be sure to read the comments in the config file to ensure it works for your project. For more details, see the [CircleCI configuration reference](https://circleci.com/docs/2.0/configuration-reference/).
 
-## Addtional Sample Configuration Files
+## Additional Sample Configuration Files
 
 Inside the `.circleci` directory, you will find an `extended` directory that extends the configuration beyond the default `.circleci/config.yml`. These configuration files are tested with every pull request to this sample app, so they stay up to date and verified working.
 
@@ -112,4 +112,3 @@ docker-compose -f docker-compose-test.yml up --build --exit-code-from web
 
 This repository is licensed under the MIT license.
 The license can be found [here](./LICENSE).
-# changes made
